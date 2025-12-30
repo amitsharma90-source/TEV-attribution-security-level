@@ -42,8 +42,8 @@ BASE_CURRENCY = 'EUR'
 VALIDATION_TOLERANCE_BPS = 0.1  # Tolerance for validation checks
 
 # File paths (will be set in main)
-RATES_FILE = "C:\\Users\\amits\\Desktop\\All quant workshop\\Market Risk\\Tracking error\\Expost TE-Enhanced, Security wide TE attribution\\All_Constant_Maturity_rates.xlsx"
-HOLDINGS_FILE = "C:\\Users\\amits\\Desktop\\All quant workshop\\Market Risk\\Tracking error\\Expost TE-Enhanced, Security wide TE attribution\\Bond holdings.xlsx"
+RATES_FILE = "All_Constant_Maturity_rates.xlsx"
+HOLDINGS_FILE = "Bond holdings.xlsx"
 OUTPUT_FILE = 'TEV_Attribution_Results.xlsx'
 
 # =============================================================================
@@ -778,8 +778,8 @@ def run_enhanced_tev_attribution(rates_file, holdings_file, output_file='TEV_Att
 
 if __name__ == "__main__":
     # File paths - UPDATE THESE
-    RATES_FILE = "C:\\Users\\amits\\Desktop\\All quant workshop\\Market Risk\\Tracking error\\Expost TE-Enhanced, Security wide TE attribution\\All_Constant_Maturity_rates.xlsx"
-    HOLDINGS_FILE = "C:\\Users\\amits\\Desktop\\All quant workshop\\Market Risk\\Tracking error\\Expost TE-Enhanced, Security wide TE attribution\\Bond holdings.xlsx"
+    RATES_FILE = "All_Constant_Maturity_rates.xlsx"
+    HOLDINGS_FILE = "Bond holdings.xlsx"
     OUTPUT_FILE = "TEV_Attribution_Results.xlsx"
     
     # Run analysis
